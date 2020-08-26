@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Mylist from './Mylist'
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import ListItem from './ListItem';
+
+const theList = ['Go to the gym', 'Eat ice cream', 'Buy ice cream']
 
 ReactDOM.render(
   <React.StrictMode>
-    <Mylist />
+    <Mylist theList={toDos}/>
+    <ListItem />
   </React.StrictMode>,
   document.getElementById('root')
 );

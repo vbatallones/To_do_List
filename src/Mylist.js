@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
+import ListItem from './ListItem'
 import './App.css'
+
+
+
 
 class Mylist extends Component {
     render() {
@@ -7,7 +11,7 @@ class Mylist extends Component {
             <div>
                 <h1>This I should stop procrastinating:</h1>
                 <ul>
-                    <li></li>
+                    <ListItem doThis="Buy Shoes"/>
                 </ul>
             </div>
         )
