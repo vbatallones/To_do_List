@@ -9,8 +9,8 @@ const theList = ['Go to the gym', 'Eat ice cream', 'Buy ice cream']
 
 ReactDOM.render(
   <React.StrictMode>
-    <Mylist theList={toDos}/>
-    <ListItem />
+    <Mylist theList={theList}/>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
